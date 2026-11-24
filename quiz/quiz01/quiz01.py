@@ -64,12 +64,12 @@ second = (inp%3600)%60  #minute%60
 print(f'{hour}시간 {minute}분 {second}초')
 
 '''
-퀴즈영역 - minute 오타수정, 변수 지정 수정(분 계산을 hour%60으로 해버림)
+퀴즈영역 - minute 오타수정, 변수 지정 수정(분 계산을 hour%60으로 해버림), 초 계산을 sec변수로 해야함
 sec = input("초(second) 입력 : ")
 sec = int(sec)
 hour = sec//3600
 minute = (sec%3600)//60
-second = minite%60
+second = (sec%3600)%60
 print(f'{hour}시간 {minute}분 {second}초')
 '''
 
