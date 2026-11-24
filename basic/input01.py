@@ -4,15 +4,15 @@ print("input01.py")
 
 # input() 사용자가 입력한 값을 문자열로 돌려주는 기능
 
-# x = input("이름을 입력하세요 : ") # 사용자가 입력할 값을 대기하는 상태, 입력한 값이 x가 됨
-# print("안녕하세요 : ", x)
+x = input("이름을 입력하세요 : ") # 사용자가 입력할 값을 대기하는 상태, 입력한 값이 x가 됨
+print("안녕하세요 : ", x)
 
-# a = input("첫번째 숫자 : ")
-# b = input("두번째 숫자 : ")
-# print( a + b )
-# print(type(a))
-# # a = int(input("첫번째 숫자 : "))
-# print( int(a) + int(b) )
+a = input("첫번째 숫자 : ")
+b = input("두번째 숫자 : ")
+print( a + b )
+print(type(a))
+# a = int(input("첫번째 숫자 : "))
+print( int(a) + int(b) )
 
 # 입력값을 변수 두개에 나눠서 저장 : split()
 print(("10 20 30").split())
