@@ -14,8 +14,7 @@ while i > 0:
     # ++i  = +(+i)
 print()
 
-# count = int(input("숫자입력:"))
-count = 0
+count = int(input("숫자입력:"))
 while count > 0:
     print(count, end=" ")
     count = count - 1
